@@ -66,7 +66,10 @@ with_jquery(function ($) {
      { Target: [ Target.CommentAnswer ], Name: "OP adding a new question as an answer", Description: 'If you have another question, please ask it by clicking the <a href="//$SITEURL$/questions/ask">Ask Question</a> button.' },
      { Target: [ Target.CommentAnswer ], Name: "Another user adding a 'Me too!'", Description: 'If you have a NEW question, please ask it by clicking the <a href="//$SITEURL$/questions/ask">Ask Question</a> button. If you have sufficient reputation, <a href="//$SITEURL$/privileges/vote-up">you may upvote</a> the question. Alternatively, "star" it as a favorite and you will be notified of any new answers.' },
      { Target: [ Target.Closure ], Name: "Too localized", Description: 'This question appears to be off-topic because it is too localized.' },
-     { Target: [ Target.EditSummaryQuestion ], Name: "Improper tagging", Description: 'The tags you were using are not appropriate for this question. Please review <a href="//$SITEURL$/help/tagging">What are tags, and how should I use them?</a>' }
+     { Target: [ Target.EditSummaryQuestion ], Name: "Improper tagging", Description: 'The tags you were using are not appropriate for this question. Please review <a href="//$SITEURL$/help/tagging">What are tags, and how should I use them?</a>' },
+     { Target: [ Target.CommentQuestion ], Name: "Accept one of the multiple answers", Description: 'If any of the answers solved your problem, please indicate so with the checkmark next to it. Thank you!' },
+     { Target: [ Target.CommentQuestion ], Name: "Accept the single answer", Description: 'If the answer below solved your problem, please indicate so with the checkmark next to it. Thank you!' }
+
     ];
 
     var weekday_name = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
